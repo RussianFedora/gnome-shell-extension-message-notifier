@@ -8,7 +8,7 @@ URL:            http://cgit.collabora.com/git/user/bari/shell-message-notifier.g
 
 Source0:        shell-message-notifier.tar.bz2
 Source1:        message-notifier
-Source2:        message-notifier
+Source2:        message-notifier.desktop
 
 Requires:       gnome-shell
 BuildArch:      noarch
