@@ -5,7 +5,7 @@ NEW=`gsettings get org.gnome.shell enabled-extensions | tr \' \" | sed 's!, "mes
 
 
 if [ "$CUR" != "$NEW" ]; then
-  sleep 10;
+  sleep 15;
 
   gsettings set org.gnome.shell enabled-extensions "$NEW"
   gsettings set org.gnome.shell enabled-extensions "$CUR"
