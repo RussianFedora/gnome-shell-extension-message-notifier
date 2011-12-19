@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=message-notifier
 Comment=Restart message notifier extension to show it extreme to the left
-Exec=Name=message-notifier
+Exec=message-notifier
 Terminal=false
 Type=Application
 OnlyShowIn=GNOME;
